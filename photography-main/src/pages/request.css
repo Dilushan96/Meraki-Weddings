@@ -1,0 +1,102 @@
+.quote-request {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background-color: #d1d9df;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.quote-request h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #9E9E9E;
+  margin-bottom: 30px;
+}
+
+.quote-request p {
+  font-size: 1.2em;
+  color: rgb(77, 77, 77);
+  margin: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .tabs button {
+    background-color: #fff;
+    color: #555;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+  }
+  
+  .tabs button.active {
+    background-color: #333;
+    color: #656579;
+    cursor: default;
+  }
+  
+  .tabs button:hover {
+    background-color: #333;
+    color: #656579;
+  }
+  
+
+form {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #bdc8b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #414654;
+  }
